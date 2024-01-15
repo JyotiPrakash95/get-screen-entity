@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+
+}
+.title{text-align: center; color:#ffff; font-size: 50px; width: 80%; margin:auto}
+h3{font-size: 28px;}
+.elementDiv{    background-color: #a19e9e;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 40px;
+    text-align: center;}
+    .elementDiv h3 span{
+          background: white;
+    padding: 0px 6px;
+    border: 2px solid #ddd;
+    }
+
+    @media (max-width:400px) {
+      .title{ font-size: 30px; width: 90%}
+    }
